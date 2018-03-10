@@ -1,0 +1,46 @@
+<!DOCTYPEhtml>
+
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Star Wars RPG</title>
+
+        <!-- Added link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="./assets/css/reset.css"></link>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css"></link>
+        
+    </head>
+
+    <body>
+        <div class="container">
+
+            <h2>Your Character</h2>
+            <ul class="list-inline">
+                <li><button id="button1" class="hero btn btn-success" value="1"><h3>Hero 1</h3><p id="displayHp1">hp</p></button></li>
+                <li><button id="button2" class="hero btn btn-success" value="2"><h3>Hero 2</h3><p id="displayHp2">hp</p></button></li>
+                <li><button id="button3" class="hero btn btn-success" value="3"><h3>Hero 3</h3><p id="displayHp3">hp</p></button></li>
+                <li><button id="button4" class="hero btn btn-success" value="4"><h3>Hero 4</h3><p id="displayHp4">hp</p></button></li>
+            </ul>
+            <h2>Enemies Available to Attack</h2>
+            <ul class="list-inline">
+                <li><button id="button5" class="enemy btn btn-danger" value="1"><h3>Enemy 1</h3><p id="displayHp5">hp</p></button></li>
+                <li><button id="button6" class="enemy btn btn-danger" value="2"><h3>Enemy 2</h3><p id="displayHp6">hp</p></button></li>
+                <li><button id="button7" class="enemy btn btn-danger" value="3"><h3>Enemy 3</h3><p id="displayHp7">hp</p></button></li>
+                <li><button id="button8" class="enemy btn btn-danger" value="4"><h3>Enemy 4</h3><p id="displayHp8">hp</p></button></li>
+            </ul>
+            <h2>Fight Section</h2>
+            <button  id="buttonAttack" class="btn btn-primary"><h5>ATTACK</h5></button>
+            <h2>Defender</h2>
+            
+        </div>
+
+        <script src="./assets/javascript/game.js"></script>
+
+    </body>
+
+</html>
